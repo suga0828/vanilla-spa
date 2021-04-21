@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-js-spa",
+  "version": "0.0.1",
+  "description": "A simple single page application made with vanila JavaScript",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build --public-url . public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suga0828/vanilla-js-spa.git"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "spa",
+    "routing"
+  ],
+  "author": "Alexander Sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suga0828/vanilla-js-spa/issues"
+  },
+  "homepage": "https://github.com/suga0828/vanilla-js-spa#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^3.9.9"
+  }
+}
