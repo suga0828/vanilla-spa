@@ -30,3 +30,8 @@ The article will focus on the following main aspects of the spa;
 ```
   yarn start
 ```
+
+## PROS and CONS
+
+- Pros: very simple project, usefull to learn some JavaScript basics.
+- Cons: not usefull to set listener on HTML elements (on after_render you can't take rendered template), routes system is very restricting.
