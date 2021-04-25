@@ -7,7 +7,7 @@ import * as Utils from '../utils';
 const renderPage = async (url: string, routerOutlet: any, routes: Routes, errorComponent: any) => {
   const request = Utils.parseRequestURL(url);
 
-  const page = routes[`/${request.resource}${request.id}${request.verb}`] || errorComponent;
+  const page = routes[`/${request.resource}${request.id ? '/:id' : ''}${request.verb}`] || errorComponent;
 
   routerOutlet.innerHTML = await page.render();
   page.afterRender();
